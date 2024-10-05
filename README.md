@@ -6,7 +6,7 @@ Here are some examples of my work. Each section showcases a different skill set 
 
 ![](phylogeny.jpg)
 
-I primarily work in R for data visualization and data processing. Here I show an example of a phylogenetic tree with annotations for various viral species. [ESM2](https://github.com/facebookresearch/esm) can be found in the folder `language_models`. Most of the code was modified from [Hie et al (2021)](https://doi.org/10.1126/science.abd7331) and we will highlight scripts written and modified for this work. The results from this code can be found in `language_models/results/`
+I primarily work in R for data visualization and data processing. Here I show an example of a phylogenetic tree with annotations for various viral species. 
 
 To color the phylogenetic tree with the species names, I had to modify the tree object by matching the accession numbers used to generate the tree with the appropriate species name as determined by the NCBI record fetched using an API call. Downstream, I then modify the tree object to include these data so they can plotted using `ggplot`.
 ```{r}
